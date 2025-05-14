@@ -7,8 +7,7 @@ const products = [
   { id: 2, name: 'Phone' },
   { id: 3, name: 'head phone' },
   { id: 4, name: 'adapter' },
-  { id: 5, name: 'pc' },
-  { id: 6, name: 'wifi' }
+  { id: 5, name: 'pc' }
 ];
 
 app.get('/products', (req, res) => {
